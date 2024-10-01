@@ -13,7 +13,7 @@ compressed = compress(data)  # The result is a compressed list (array)
 # Step 3: Write the compressed data to a new JSON file
 compressed_file = "compressed_data.json"
 with open(compressed_file, "w") as fd:
-    fd.write(json.dumps(compressed))  # Convert the compressed list to string and write to file
+    fd.write(json.dumps(compressed, indent=4))  # Convert the compressed list to string and write to file
 
 # Step 4: Get the sizes of both files (original and compressed)
 original_file_size = os.path.getsize('large_data.json')  # Size in bytes

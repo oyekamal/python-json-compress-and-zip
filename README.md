@@ -45,8 +45,16 @@ Yes, the `compress-json` library is available for both **Python** and **JavaScri
 - **JavaScript Version**: You can find the JavaScript version of the `compress-json` library on npm:
   [compress-json on npm](https://www.npmjs.com/package/compress-json)
 
-## How to Run
+## How to Run on python
 
 1. Install the required library:
    ```bash
    pip install compress-json
+   ```
+    
+## How to Run on JavaScript
+
+1. Install the required library:
+   ```bash
+   npm install compress-json
+   ```
